@@ -21,3 +21,11 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:10086/eureka
+#給某个微服务配置负载均衡规则，这里是 userservice 服务
+#userservice:
+#  ribbon:
+#    NFLoadBalancerRuleCLassName: com.netflix.Loadbalancer.RandomRule # 负载均衡规则
+#ribbon:
+#  eager-load:
+#    enabled: true # 开启解加载
+#    clients: userservice # 指定被调用微服务饥渴加载
