@@ -1,7 +1,7 @@
-package cn.itcast.user.service;
+package com.ankers.user.service;
 
-import cn.itcast.user.mapper.UserMapper;
-import cn.itcast.user.pojo.User;
+import com.ankers.user.mapper.UserMapper;
+import com.ankers.user.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

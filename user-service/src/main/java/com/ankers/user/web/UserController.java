@@ -1,7 +1,7 @@
-package cn.itcast.user.web;
+package com.ankers.user.web;
 
-import cn.itcast.user.pojo.User;
-import cn.itcast.user.service.UserService;
+import com.ankers.user.pojo.User;
+import com.ankers.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

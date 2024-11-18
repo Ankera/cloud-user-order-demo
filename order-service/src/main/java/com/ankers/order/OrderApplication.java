@@ -1,11 +1,12 @@
-package cn.itcast.order;
+package com.ankers.order;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
-@MapperScan("cn.itcast.order.mapper")
+@MapperScan("com.ankers.order.mapper")
 @SpringBootApplication
 public class OrderApplication {
 
@@ -13,4 +14,8 @@ public class OrderApplication {
         SpringApplication.run(OrderApplication.class, args);
     }
 
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
 }

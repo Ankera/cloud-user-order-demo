@@ -1,4 +1,4 @@
-package cn.itcast.user.pojo;
+package com.ankers.user.pojo;
 
 import lombok.Data;
 
