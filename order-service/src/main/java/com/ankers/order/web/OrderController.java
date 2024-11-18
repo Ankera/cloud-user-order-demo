@@ -26,7 +26,9 @@ public class OrderController {
 
         Long userId = order.getUserId();
 
-        String url = "http://localhost:8081/user/" + userId;
+//        String url = "http://localhost:8081/user/" + userId;
+        // 解析urL地址获取被调用的微服务的额名称，然后去注册中心根据名称获取服务列表，最后负载均衡访问
+        String url = "http://userservice/user/" + userId;
 
         User user = restTemplate.getForObject(url, User.class);
 
