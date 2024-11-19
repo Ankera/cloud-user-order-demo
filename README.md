@@ -68,3 +68,11 @@ insert into cloud_user.tb_user (id, username, address) values (4, '张必沉', '
 insert into cloud_user.tb_user (id, username, address) values (5, '郑爽爽', '辽宁省沈阳市大东区');
 insert into cloud_user.tb_user (id, username, address) values (6, '范兵兵', '山东省青岛市');
 ```
+
+### nacos
+```text
+<version>2.2.9.RELEASE</version> 注册不成功的原因
+
+https://blog.csdn.net/weixin_44615693/article/details/122078626
+```
+![img_5.png](img_5.png)
